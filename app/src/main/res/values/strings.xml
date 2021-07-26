@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="searching">Searching for opponent…</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string-array name="levels_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>

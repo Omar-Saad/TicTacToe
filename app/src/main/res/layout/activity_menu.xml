@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MenuActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:fontFamily="@font/titan_one"
+        android:shadowColor="@color/prim"
+        android:text="Tic Tac Toe"
+        android:textAllCaps="false"
+        android:textColor="@color/prim"
+        android:textSize="@dimen/_42sdp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="70sp"
+        app:autoSizeMinTextSize="40sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <Button
+            android:id="@+id/pl1"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:background="@color/splash_back"
+            android:fontFamily="@font/titan_one"
+            android:gravity="center"
+            android:text="Play with CPU"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_22sdp" />
+
+        <Button
+            android:id="@+id/pl2"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_below="@id/pl1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="33dp"
+            android:background="@color/splash_back"
+            android:fontFamily="@font/titan_one"
+            android:gravity="center"
+            android:text=" MultiPlayer"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_22sdp" />
+
+        <Button
+            android:id="@+id/pl3"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_below="@id/pl2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="33dp"
+            android:background="@color/splash_back"
+            android:fontFamily="@font/titan_one"
+            android:gravity="center"
+            android:text="Online MultiPlayer"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_22sdp" />
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
